@@ -6,7 +6,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 
 public class FirebaseUtil {
-    public static FirebaseDatabase mFirebaseDatabase
+    public static FirebaseDatabase mFirebaseDatabase;
     public static DatabaseReference mDatabaseReference;
     private static FirebaseUtil firebaseUtil;
     public static ArrayList<TravelDeal> mDeals;
